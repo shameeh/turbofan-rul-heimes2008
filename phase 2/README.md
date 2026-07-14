@@ -131,6 +131,4 @@ To execute Phase 2 target label engineering or generate the diagnostic plot loca
 # Run Phase 2 target label engineering & boundary checks
 python phase_2.py
 
-# Generate two-panel diagnostic chart (Engine #1 vs Sensor 11)
-python plot_phase2.py
 ```
