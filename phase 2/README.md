@@ -14,12 +14,12 @@ When supervising a neural network on time-series run-to-failure telemetry, assig
 ### Heimes' Piecewise Linear Target Function ($RUL_{\max} = 130$)
 To align mathematical supervision with physical degradation kinetics, **Felix O. Heimes (2008)** introduced a Piecewise Linear Target Function with a saturation ceiling of $RUL_{\max} = 130$ cycles:
 
-\[
+```math
 \text{RUL}_{\text{linear}}(t) = T_{\text{EOL}} - t
-\]
-\[
+```
+```math
 \text{RUL}_{\text{target}}(t) = \min\left(\text{RUL}_{\text{linear}}(t), \, 130\right)
-\]
+```
 
 ```mermaid
 graph LR
