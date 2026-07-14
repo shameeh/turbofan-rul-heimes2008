@@ -48,8 +48,8 @@ Each phase of the project is structured modularly with its own dedicated documen
 | Phase | Module / Documentation | Core Focus & Engineering Deliverable | Status |
 | :--- | :--- | :--- | :---: |
 | **Phase 1** | [`README_Phase_1.md`](file:///d:/Study/EHM/cmapss_project/README_Phase_1.md) <br/> Script: `phase_1.py` | **Data Ingestion & Sequence Isolation**: Space-separated C-MAPSS parsing, 26-column schema assignment, 100 isolated engine lifecycles ($t_{EOL} \in [128, 362]$). | ✅ **Complete** |
-| **Phase 2** | *Phase 2 Documentation* <br/> Script: `phase_2.py` *(Upcoming)* | **Target Label Engineering**: Implementing Heimes' Piecewise Linear Target Function ($RUL_{\max} = 130$) to prevent early-regime gradient noise. | ⏳ *Upcoming* |
-| **Phase 3** | *Phase 3 Documentation* | **Recurrent Neural Network Architecture**: Designing and building the multi-layer PyTorch RNN/LSTM architecture from scratch. | ⏳ *Planned* |
+| **Phase 2** | *Phase 2 Documentation* <br/> Script: `phase_2.py` *(Upcoming)* | **Target Label Engineering**: Implementing Heimes' Piecewise Linear Target Function ($RUL_{\max} = 130$) to prevent early-regime gradient noise. | ✅ **Complete** |
+| **Phase 3** | *Phase 3 Documentation* | **Recurrent Neural Network Architecture**: Designing and building the multi-layer PyTorch RNN/LSTM architecture from scratch. | ⏳ *Upcoming* |
 | **Phase 4** | *Phase 4 Documentation* | **Training, Diagnostics & Horizon Evaluation**: Evaluating predictions against the asymmetric PHM 2008 scoring function. | ⏳ *Planned* |
 
 ---
