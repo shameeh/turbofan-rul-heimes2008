@@ -68,7 +68,10 @@ Open the project directory in **Spyder** (or your local IDE) and run individual 
 # Phase 1: Execute data ingestion & sequence isolation checks
 python phase_1.py
 ```
-
+```bash
+# Phase 2: Execute Target Label Engineering & Diagnostic Clamping
+python phase_2.py
+```
 ---
 
 ## 📖 Key References & Citations
